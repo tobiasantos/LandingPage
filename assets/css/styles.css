@@ -371,6 +371,10 @@ body .full-width {
 }
 
 @media (max-width: 800px) {
+    h2 {
+        font-size: 5rem;
+    }
+
     .intro-content, .grid {
         grid-template-columns: 1fr;
     }
@@ -428,5 +432,9 @@ body .full-width {
 
     .menu-spacing {
         display: none;
+    }
+
+    .contact-form {
+        grid-column: span 1;
     }
 }
